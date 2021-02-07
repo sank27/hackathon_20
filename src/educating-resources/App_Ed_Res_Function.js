@@ -2,6 +2,10 @@ import logo from './../logo.svg';
 import './../App.css';
 import './App_Ed_Res_Function.css'
 
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {SocialIcon} from 'react-social-icons'; 
+
 var root = document.documentElement;
 const lists = document.querySelectorAll('.hs'); 
 
@@ -88,22 +92,38 @@ function App_Educating_Resources() {
           <section class="child">
               <h1>Better Energy Usage</h1>
               <div class="sources"> 
+<<<<<<< HEAD
                 <div>Using Heating Or Cooling Only When Needed</div>
                 <div>Turning Off Lights</div>
+=======
+                <div><h1>To Come: Ways to Improve Individual Energy Consumption</h1></div>
+                <div><h1>To Come: Ways to Improve Infrastructure of Energy Consupmtion</h1></div>
+>>>>>>> 8e2e32c8eb92b394fecb125738a0d168ccf3ddd0
               </div>
           </section>
           <section class="child">
               <h1>Change in the Corporate World</h1>
               <div class="sources"> 
+<<<<<<< HEAD
                 <div>Buy Local</div>
                 <div>Learn About The Company</div>
+=======
+                <div><h1>To Come: Ways to Encourage Large Scale Change as an Individual</h1></div>
+>>>>>>> 8e2e32c8eb92b394fecb125738a0d168ccf3ddd0
               </div>
           </section>
           <section class="child">
               <h1>Spread Awareness</h1>
               <div class="sources"> 
+<<<<<<< HEAD
                 <div>Become An Active Learner</div>
                 <div>Start Your Own Cause</div>
+=======
+                <div>
+                  <SocialIcon network="twitter" url='https://twitter.com/?lang=en'/>
+                  <SocialIcon network="facebook" url='https://facebook.com'/>
+                </div>
+>>>>>>> 8e2e32c8eb92b394fecb125738a0d168ccf3ddd0
               </div>
           </section>
         </main>

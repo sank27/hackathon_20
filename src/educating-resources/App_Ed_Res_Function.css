@@ -100,6 +100,9 @@ html {
 */
 .child:nth-child(1n) {
   background-color: darkorchid;
+
+  background-image: url('masksOnBeach.jpg');
+  background-size: 100% 100%;
 }
 
 .child:nth-child(2n) {
@@ -133,6 +136,8 @@ html {
 
 .child:nth-child(6n) {
   background-color: teal;
+  background-image: url('sustainable.jpg');
+  background-size: 100% 100%;
 }
 
 .child > h1 {
