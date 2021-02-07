@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import { PieChart } from 'react-minimal-pie-chart'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <p>Testing</p>
-      </header>
+
+      <form action="">
+        <div id='flex'>
+        <label for="ename"> What is your average electricity per month? </label>
+        <input type="text" id="ename"></input>
+        
+        <label for="ename"> What is your average natural gas bill per month?</label>
+        <input type="text" id="ename"></input>
+        <label for="ename">To determine your waste emission please enter how man people live in your household: </label>
+        <input type="text" id="ename"></input>
+        </div>
+      </form>
+
+      <PieChart  data = {[
+             { title: 'One', value: 10, color: '#E38627' },
+             { title: 'Two', value: 15, color: '#C13C37' },
+             { title: 'Three', value: 20, color: '#6A2135' },
+        ]} />
+
     </div>
   );
 }
