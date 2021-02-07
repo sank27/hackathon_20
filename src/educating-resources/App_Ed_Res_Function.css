@@ -118,6 +118,11 @@ html {
   background-color: navy;
 }
 
+.child > h1 {
+  position: relative;
+  top: 0px;
+}
+
 .sources {
   display: flex; 
   flex-flow: row nowrap;
@@ -127,5 +132,13 @@ html {
 .sources > * {
   border-color: #000;
   border: 2px;
-  margin: 10px;
+  margin: 10%;
+  padding: 10px;
+  font-size: 80%;
+  border: 5px solid #000;
+  border-radius: 20px;
+  justify-content: center;
+  height: 30vh;
+  width: 40vw;
+  background-color: #0f0
 }
