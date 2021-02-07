@@ -1,5 +1,6 @@
 .App_Ed_Res_Function {
-  text-align: center;
+  /*text-align: center;*/
+  /*overflow-y: scroll;*/
 }
 
 .App-logo {
@@ -42,49 +43,89 @@ p {
 }
 
 /* Snap Scrolling */
-.container {
+*.container {
   display: grid;
   grid-auto-flow: column;
   align-content: start;
+  /*place-items: left;*/
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  width: 100vw;
+  /*height: 1000vh;*/
+
 }
 
 .child {
   scroll-snap-align: center;
-  display: inline-block;
-  height: 100vh;
+  /*display: inline-block;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*height: 100vh;*/
   width: 100vw;
+  height: 100vh;
+  padding: 10px;
+  background: #000;
+  border-left-color: #fff;
+  border-right-color: #fff;
+  padding-bottom: 15px;
 }
 
 html {
-  scroll-snap-type: x proximity;
+  scroll-snap-type: x mandatory;
   overscroll-behavior-x: contain;
+  display: flex; 
+  flex-direction: row;
 }
 
-:root {
-  --gutter: 20px;
+
+/* https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585 */
+/* https://blog.logrocket.com/how-to-use-css-scroll-snap/*/
+
+/* TODO: 
+      - Set background images 
+      - Add borders around the text items 
+      - Format titles to be more toward top 
+      - set background colors for text items 
+      - text items -> flex container? grid? 
+
+      - test and adjust multiple sizes of screens and mobile settings 
+
+      - ADD ACTUAL CONTENT
+      - If time: 
+        - add discussion sections below each section 
+        - add sharability on social media 
+          - make it personalized somehow
+*/
+.child:nth-child(1n) {
+  background-color: darkorchid;
 }
 
-.App_Educating_Resources > * {
-  grid-column: 2 / -2;
+.child:nth-child(2n) {
+  background-color: indigo;
 }
 
-.App_Educating_Resources > .child {
-  grid-column: 1 / -1;
+.child:nth-child(3n) {
+  background-color: navy;
 }
 
-.child {
-  display: grid;
-  grid-gap: calc(var(--gutter) / 2);
-  grid-template-columns: 10px repeat(var(--total), calc(50% - var(--gutter) * 2)) 10px;
-  grid-template-rows: minmax(150px, 1fr);
-  
-  overflow-x: scroll;
-  scroll-snap-type: x proximity;
-  padding-bottom: calc(.75 * var(--gutter));
-  margin-bottom: calc(-.25 * var(--gutter));
+.child:nth-child(4n) {
+  background-color: indigo;
 }
 
-.child:before,
-.child:after {
-  content: '';
+.child:nth-child(5n) {
+  background-color: navy;
+}
+
+.sources {
+  display: flex; 
+  flex-flow: row nowrap;
+  justify-content: space-around;  
+}
+
+.sources > * {
+  border-color: #000;
+  border: 2px;
+  margin: 10px;
 }

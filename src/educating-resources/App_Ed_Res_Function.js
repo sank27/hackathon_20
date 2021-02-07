@@ -2,6 +2,15 @@ import logo from './../logo.svg';
 import './../App.css';
 import './App_Ed_Res_Function.css'
 
+var root = document.documentElement;
+const lists = document.querySelectorAll('.hs'); 
+
+lists.forEach(el => {
+  const listItems = el.querySelectorAll('li');
+  const n = el.children.length;
+  el.style.setProperty('--total', n);
+});
+
 function App_Educating_Resources() {
   return (
     <div className="App_Educating_Resources">
@@ -46,12 +55,43 @@ function App_Educating_Resources() {
         */} 
 
         {/* https://css-tricks.com/practical-css-scroll-snapping/ */}
-        <div class="container">
-          <section class="child"><h1>First Section</h1></section>
-          <section class="child"><h1>Second Section</h1></section>
-          <section class="child"><h1>Third Section</h1></section>
-          <p>...</p>
-        </div>
+        <main class="container">
+          <section class="child"> 
+              <h1>Title</h1>
+              <div class="sources"> 
+                <div>And here's some text</div>
+                <div>And here's some more</div>
+              </div>
+          </section>
+          <section class="child">
+              <h1>Second Section</h1>
+              <div class="sources"> 
+                <div>And here's some text</div>
+                <div>And here's some more</div>
+              </div>
+          </section>
+          <section class="child">
+              <h1>Third Section</h1>
+              <div class="sources"> 
+                <div>And here's some text</div>
+                <div>And here's some more</div>
+              </div>
+          </section>
+          <section class="child">
+              <h1>Fourth Section</h1>
+              <div class="sources"> 
+                <div>And here's some text</div>
+                <div>And here's some more</div>
+              </div>
+          </section>
+          <section class="child">
+              <h1>Fifth Section</h1>
+              <div class="sources"> 
+                <div>And here's some text</div>
+                <div>And here's some more</div>
+              </div>
+          </section>
+        </main>
 
 
       </header>
