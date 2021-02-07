@@ -136,6 +136,8 @@ html {
 
 .child:nth-child(6n) {
   background-color: teal;
+  background-image: url('sustainable.jpg');
+  background-size: 100% 100%;
 }
 
 .child > h1 {
