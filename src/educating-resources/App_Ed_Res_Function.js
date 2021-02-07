@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import './App_Ed_Res_Function.css'
 
-function App() {
+function App_Educating_Resources() {
   return (
-    <div className="App">
+    <div className="App_Educating_Resources">
       <header className="App-header">
+        // TODO: Change logo and Header
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,7 +17,39 @@ function App() {
         >
           Learn React
         </a>
-        <p>Testing</p>
+        <p>Testing</p> 
+        /* TODO
+            Scrolling Background 
+              - implement user scroll 
+                - ??? horizontally or vertically -> leaning towards horizontally 
+                - create containing element within webpage to contain objects to scroll through 
+                - add button or mouse over object, OR have timed scroll? -> leaning away from timed
+              - import backgrounds 
+              - overlay info boxes for personal change and corporate/societal change 
+              - match info content to different backgrounds, have info content scroll with backgrounds 
+                - need topic ideas to match background ideas (5-10???)
+                  - reduce covid specific waster over beaches filled with masks (specific resource for this)
+                  - reduce energy usage where climate change is causing devastating effects 
+                  - reduce plastic waste where sea life or other animals are being affected 
+                  - .... 
+              - include external links 
+                  - research reputable, useful external resources
+
+            If Time: 
+              - include educator's compiliation of resources
+                - purpose is to tie in the VR education purpose 
+
+        */ 
+
+        // https://css-tricks.com/practical-css-scroll-snapping/
+        <div class="container">
+          <section class="child"></section>
+          <section class="child"></section>
+          <section class="child"></section>
+          <p>...</p>
+        </div>
+
+
       </header>
     </div>
   );
