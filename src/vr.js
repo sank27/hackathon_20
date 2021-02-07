@@ -1,18 +1,15 @@
 import 'aframe';
 import {Entity, Scene} from 'aframe-react';
 import React from 'react';
+import vr from './image_gallery/1.jpg';
 
 export default (props) => {
   return (
     <Scene>
       <a-assets>
-        <img id="city" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg" />
-        <img id="city-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg" />
-        <img id="cubes-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg" />
-        <img id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg" />
-        <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
-        <img id="cubes" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/cubes.jpg" />
-        <img id="sechelt" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg" />
+        <img id="city" crossorigin="anonymous" src={vr} />
+        
+        
 
       </a-assets>
 
@@ -23,9 +20,9 @@ export default (props) => {
 
       {/* <!-- Image links. --> */}
       <Entity id="links" layout="type: line; margin: 1.5" position="0 -1 -4">
-        <Entity template="src: #link" data-src="#cubes" data-thumb="#cubes-thumb"></Entity>
+        <Entity template="src: #link" data-src="#city" data-thumb="#cubes-thumb"></Entity>
         <Entity template="src: #link" data-src="#city" data-thumb="#city-thumb"></Entity>
-        <Entity template="src: #link" data-src="#sechelt" data-thumb="#sechelt-thumb"></Entity>        
+        <Entity template="src: #link" data-src="#city" data-thumb="#sechelt-thumb"></Entity>        
       </Entity> 
         
       
