@@ -107,15 +107,19 @@ html {
 }
 
 .child:nth-child(3n) {
-  background-color: navy;
+  background-color: violet;
 }
 
 .child:nth-child(4n) {
-  background-color: indigo;
+  background-color: navy;
 }
 
 .child:nth-child(5n) {
-  background-color: navy;
+  background-color: pink;
+}
+
+.child:nth-child(6n) {
+  background-color: teal;
 }
 
 .child > h1 {
@@ -134,11 +138,13 @@ html {
   border: 2px;
   margin: 10%;
   padding: 10px;
-  font-size: 80%;
+  font-size: 65%;
+  text-align: center;
   border: 5px solid #000;
   border-radius: 20px;
   justify-content: center;
   height: 30vh;
   width: 40vw;
-  background-color: #0f0
+  background-color: #F0FFF0;
+  color: #000;
 }

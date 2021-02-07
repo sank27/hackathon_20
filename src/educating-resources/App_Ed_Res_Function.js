@@ -44,35 +44,42 @@ function App_Educating_Resources() {
         {/* https://css-tricks.com/practical-css-scroll-snapping/ */}
         <main class="container">
           <section class="child"> 
-              <h1>Title</h1>
+              <h1>COVID-19 Impacts</h1>
               <div class="sources"> 
                 <div>And here's some text</div>
                 <div>And here's some more</div>
               </div>
           </section>
           <section class="child">
-              <h1>Second Section</h1>
+              <h1>Improve Carbon Footprint</h1>
               <div class="sources"> 
                 <div>And here's some text</div>
                 <div>And here's some more</div>
               </div>
           </section>
           <section class="child">
-              <h1>Third Section</h1>
+              <h1>Mitigate Plastic Waste</h1>
               <div class="sources"> 
                 <div>And here's some text</div>
                 <div>And here's some more</div>
               </div>
           </section>
           <section class="child">
-              <h1>Fourth Section</h1>
+              <h1>Better Energy Usage</h1>
               <div class="sources"> 
                 <div>And here's some text</div>
                 <div>And here's some more</div>
               </div>
           </section>
           <section class="child">
-              <h1>Fifth Section</h1>
+              <h1>Change in the Corporate World</h1>
+              <div class="sources"> 
+                <div>And here's some text</div>
+                <div>And here's some more</div>
+              </div>
+          </section>
+          <section class="child">
+              <h1>Spread Awareness</h1>
               <div class="sources"> 
                 <div>And here's some text</div>
                 <div>And here's some more</div>
