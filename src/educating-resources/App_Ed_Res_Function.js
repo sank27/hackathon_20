@@ -68,8 +68,14 @@ function App_Educating_Resources() {
           <section class="child">
               <h1>Improve Carbon Footprint</h1>
               <div class="sources"> 
-                <div><h1>Traveling Using Eco-Friendly Ways</h1></div>
-                <div><h1>Conserving At Home</h1></div>
+                <div><h1>Traveling Using Eco-Friendly Ways</h1>
+                Cities offer low cost alternatives to traveling that don't envolve owning a personal vehicle.&nbsp;
+                
+                </div>
+              
+                <div><h1>Making Diet Choices</h1>
+                This may sound scary, but it's definetly not as bad as it sounds.&nbsp;
+                </div>
               </div>
           </section>
           <section class="child">
@@ -82,22 +88,22 @@ function App_Educating_Resources() {
           <section class="child">
               <h1>Better Energy Usage</h1>
               <div class="sources"> 
-                <div></div>
-                <div>And here's some more</div>
+                <div>Using Heating Or Cooling Only When Needed</div>
+                <div>Turning Off Lights</div>
               </div>
           </section>
           <section class="child">
               <h1>Change in the Corporate World</h1>
               <div class="sources"> 
                 <div>Buy Local</div>
-                <div></div>
+                <div>Learn About The Company</div>
               </div>
           </section>
           <section class="child">
               <h1>Spread Awareness</h1>
               <div class="sources"> 
-                <div>And here's some text</div>
-                <div>And here's some more</div>
+                <div>Become An Active Learner</div>
+                <div>Start Your Own Cause</div>
               </div>
           </section>
         </main>
