@@ -2,10 +2,6 @@ import logo from './../logo.svg';
 import './../App.css';
 import './App_Ed_Res_Function.css'
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {SocialIcon} from 'react-social-icons'; 
-
 var root = document.documentElement;
 const lists = document.querySelectorAll('.hs'); 
 
@@ -99,7 +95,7 @@ function App_Educating_Resources() {
           <section class="child">
               <h1>Change in the Corporate World</h1>
               <div class="sources"> 
-                <div><h1>Learn About The Company</h1></div>
+                <div><h1>Learn About The Company; Buy Local</h1></div>
                 <div><h1>To Come: Ways to Encourage Large Scale Change as an Individual</h1></div>
               </div>
           </section>
@@ -117,6 +113,8 @@ function App_Educating_Resources() {
                   <SocialIcon network="twitter" url='https://twitter.com/?lang=en'/>
                   <SocialIcon network="facebook" url='https://facebook.com'/>
                   <SocialIcon network="email"/>
+                <div>Become An Active Learner</div>
+                <div>Start Your Own Cause</div>
               </div>
             </div>
           </section>
