@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import App_virtual_page from './virtual-page/App_virtual_page'
 
 function App() {
   return (
@@ -17,7 +18,11 @@ function App() {
         >
           Learn React
         </a>
+        
         <p>Testing</p>
+
+        < App_virtual_page />
+        
       </header>
     </div>
   );
