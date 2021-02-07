@@ -191,3 +191,17 @@ a:visited {
 .sources > h2 {
   justify-content: center;
 }
+
+.social_media_links {
+  height: auto;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.social_media_links > SocialIcon {
+  align-self: center;
+}

@@ -99,9 +99,10 @@ function App_Educating_Resources() {
           <section class="child">
               <h1>Spread Awareness</h1>
               <div class="sources"> 
-                <div>
+                <div class="social_media_links">
                   <SocialIcon network="twitter" url='https://twitter.com/?lang=en'/>
                   <SocialIcon network="facebook" url='https://facebook.com'/>
+                  <SocialIcon network="email"/>
                 </div>
               </div>
           </section>
