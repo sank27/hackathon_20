@@ -1,6 +1,9 @@
 import logo from './../logo.svg';
 import './../App.css';
-import './App_Ed_Res_Function.css'
+import './App_Ed_Res_Function.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
 
 var root = document.documentElement;
 const lists = document.querySelectorAll('.hs'); 
