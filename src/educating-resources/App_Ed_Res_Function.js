@@ -72,39 +72,53 @@ function App_Educating_Resources() {
           <section class="child">
               <h1>Improve Carbon Footprint</h1>
               <div class="sources"> 
-                <div><h1>Traveling Using Eco-Friendly Ways</h1></div>
-                <div><h1>Conserving At Home</h1></div>
+                <div><h1>Traveling Using Eco-Friendly Ways</h1>
+                Cities offer low cost alternatives to traveling that don't envolve owning a personal vehicle.&nbsp;
+                
+                </div>
+              
+                <div><h1>Making Diet Choices</h1>
+                This may sound scary, but it's definetly not as bad as it sounds.&nbsp;
+                </div>
               </div>
           </section>
           <section class="child">
               <h1>Mitigate Plastic Waste</h1>
               <div class="sources"> 
-                <div>Upcycle</div>
-                <div>Recycling Properly</div>
+                <div><h1>Upcycle</h1></div>
+                <div><h1>Recycling Properly</h1></div>
               </div>
           </section>
           <section class="child">
               <h1>Better Energy Usage</h1>
               <div class="sources"> 
-                <div><h1>To Come: Ways to Improve Individual Energy Consumption</h1></div>
-                <div><h1>To Come: Ways to Improve Infrastructure of Energy Consupmtion</h1></div>
+                <div><h1>Using Heating Or Cooling Only When Needed</h1></div>
+                <div><h1>Turning Off Lights</h1></div>
               </div>
           </section>
           <section class="child">
               <h1>Change in the Corporate World</h1>
               <div class="sources"> 
+                <div><h1>Learn About The Company</h1></div>
                 <div><h1>To Come: Ways to Encourage Large Scale Change as an Individual</h1></div>
               </div>
           </section>
           <section class="child">
               <h1>Spread Awareness</h1>
               <div class="sources"> 
-                <div class="social_media_links">
+                <div><h1>Become An Active Learner</h1></div>
+                <div><h1>Start Your Own Cause</h1></div>
+              </div>
+          </section>
+          <section class="child">
+            <h1>Share</h1>
+            <div class='sources'>
+              <div  class="social_media_links">
                   <SocialIcon network="twitter" url='https://twitter.com/?lang=en'/>
                   <SocialIcon network="facebook" url='https://facebook.com'/>
                   <SocialIcon network="email"/>
-                </div>
               </div>
+            </div>
           </section>
         </main>
 
