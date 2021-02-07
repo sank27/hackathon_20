@@ -43,9 +43,13 @@ p {
 
 /* Snap Scrolling */
 .container {
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: x mandatory;
 }
 
 .child {
   scroll-snap-align: start;
+}
+
+html {
+  scroll-snap-type: x mandatory;
 }

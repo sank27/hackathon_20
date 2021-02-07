@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './../logo.svg';
+import './../App.css';
 import './App_Ed_Res_Function.css'
 
 function App_Educating_Resources() {
   return (
     <div className="App_Educating_Resources">
       <header className="App-header">
-        // TODO: Change logo and Header
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <p>Testing</p> 
-        /* TODO
+        {/* TODO: Change logo and Header
+        // <img src={logo} className="App-logo" alt="logo" /> */}
+      
+        {/* TODO
             Scrolling Background 
               - implement user scroll 
                 - ??? horizontally or vertically -> leaning towards horizontally 
@@ -39,13 +30,13 @@ function App_Educating_Resources() {
               - include educator's compiliation of resources
                 - purpose is to tie in the VR education purpose 
 
-        */ 
+        */} 
 
-        // https://css-tricks.com/practical-css-scroll-snapping/
+        {/* https://css-tricks.com/practical-css-scroll-snapping/ */}
         <div class="container">
-          <section class="child"></section>
-          <section class="child"></section>
-          <section class="child"></section>
+          <section class="child"><h1>First Section</h1></section>
+          <section class="child"><h1>Second Section</h1></section>
+          <section class="child"><h1>Third Section</h1></section>
           <p>...</p>
         </div>
 
@@ -55,4 +46,4 @@ function App_Educating_Resources() {
   );
 }
 
-export default App;
+export default App_Educating_Resources;
