@@ -1,29 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import App_virtual_page from './virtual-page/App_virtual_page'
-
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import App_virtual_page from "./virtual-page/App_virtual_page";
+import ImageGallery from "./vr";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        
-        <p>Testing</p>
-
-        < App_virtual_page />
-        
-      </header>
+      <a href = "vr">VR</a>
+      <Router>
+        <Route path="vr" exact component= {ImageGallery} />
+      </Router>
     </div>
   );
 }
