@@ -149,15 +149,15 @@ html {
 .sources > * {
   border-color: #000;
   border: 2px;
-  margin: 10%;
+  margin: 5%;
   padding: 10px;
   font-size: 65%;
   text-align: center;
   border: 5px solid #000;
   border-radius: 20px;
   justify-content: center;
-  height: 30vh;
-  width: 40vw;
+  height: 50vh;
+  width: 50vw;
   background-color: #F0FFF0;
   color: #000;
 }
