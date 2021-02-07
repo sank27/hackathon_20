@@ -51,6 +51,7 @@ p {
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   width: 100vw;
+  /*height: 1000vh;*/
 
 }
 
@@ -63,15 +64,12 @@ p {
   align-items: center;
   /*height: 100vh;*/
   width: 100vw;
+  height: 100vh;
   padding: 10px;
   background: #000;
   border-left-color: #fff;
   border-right-color: #fff;
   padding-bottom: 15px;
-}
-
-.start_child {
-
 }
 
 html {
@@ -84,3 +82,24 @@ html {
 
 /* https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585 */
 /* https://blog.logrocket.com/how-to-use-css-scroll-snap/*/
+
+/* TODO: Set background images */
+.child:nth-child(1n) {
+  background-color: darkorchid;
+}
+
+.child:nth-child(2n) {
+  background-color: indigo;
+}
+
+.child:nth-child(3n) {
+  background-color: navy;
+}
+
+.child:nth-child(4n) {
+  background-color: indigo;
+}
+
+.child:nth-child(5n) {
+  background-color: navy;
+}

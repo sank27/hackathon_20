@@ -43,7 +43,13 @@ function App_Educating_Resources() {
 
         {/* https://css-tricks.com/practical-css-scroll-snapping/ */}
         <div class="container">
-          <section class="child" id="start_child"><h1>First Section</h1></section>
+          <section class="child"> 
+              <h1>Title</h1>
+              <p>And here's some text</p>
+
+          </section>
+          <section class="child"><h1>Second Section</h1></section>
+          <section class="child"><h1>Third Section</h1></section>
           <section class="child"><h1>Second Section</h1></section>
           <section class="child"><h1>Third Section</h1></section>
         </div>
