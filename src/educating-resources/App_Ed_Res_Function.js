@@ -1,6 +1,7 @@
 import logo from './../logo.svg';
 import './../App.css';
 import './App_Ed_Res_Function.css'
+import $ from 'jquery';
 
 var root = document.documentElement;
 const lists = document.querySelectorAll('.hs'); 
@@ -10,6 +11,32 @@ lists.forEach(el => {
   const n = el.children.length;
   el.style.setProperty('--total', n);
 });
+
+// var child_1 = $('child:nth-child(1n)');
+// var child_2 = $('child:nth-child(2n)');
+
+// var backgrounds_1 = new Array(
+//     'nature.jpg',
+//     'pollution.jpg' 
+//   );
+
+// var backgrounds_2 = new Array(
+//     'sustainable.jpg',
+//     'powerStation.jpg'
+//   );
+
+// var current = 0;
+
+// function nextBackground(background_arr) {
+//     current++; 
+//     current = current%2; 
+//     child_1.css('background-image', backgrounds_1[current]); 
+//     child_2.css('background-image', backgrounds_2[current]); 
+// }
+// setInterval(nextBackground, 1000);
+
+// child_1.css('background-image', backgrounds_1[0]); 
+// child_2.css('background-image', backgrounds_2[0]); 
 
 function App_Educating_Resources() {
   return (
