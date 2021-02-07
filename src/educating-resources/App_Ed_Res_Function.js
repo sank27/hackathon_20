@@ -73,36 +73,36 @@ function App_Educating_Resources() {
           <section class="child"> 
               <h1>COVID-19 Impacts</h1>
               <div class="sources"> 
-                <div>And here's some text</div>
-                <div>And here's some more</div>
+                <div>Personal Impacts</div>
+                <div>Global Impacts</div>
               </div>
           </section>
           <section class="child">
               <h1>Improve Carbon Footprint</h1>
               <div class="sources"> 
-                <div>And here's some text</div>
-                <div>And here's some more</div>
+                <div>Traveling Using Eco-Friendly Ways</div>
+                <div>Conserving At Home</div>
               </div>
           </section>
           <section class="child">
               <h1>Mitigate Plastic Waste</h1>
               <div class="sources"> 
-                <div>And here's some text</div>
-                <div>And here's some more</div>
+                <div>Upcycle</div>
+                <div>Recycling Properly</div>
               </div>
           </section>
           <section class="child">
               <h1>Better Energy Usage</h1>
               <div class="sources"> 
-                <div>And here's some text</div>
+                <div></div>
                 <div>And here's some more</div>
               </div>
           </section>
           <section class="child">
               <h1>Change in the Corporate World</h1>
               <div class="sources"> 
-                <div>And here's some text</div>
-                <div>And here's some more</div>
+                <div>Buy Local</div>
+                <div></div>
               </div>
           </section>
           <section class="child">
