@@ -78,14 +78,20 @@ function App_Educating_Resources() {
               
                 <div><h1>Making Diet Choices</h1>
                 This may sound scary, but it's definetly not as bad as it sounds.&nbsp;
+                <br/> Making a concious effort to eat less red meat and pick veggies or poultry can make big changes for the environment!
                 </div>
               </div>
           </section>
           <section class="child">
               <h1>Mitigate Plastic Waste</h1>
               <div class="sources"> 
-                <div><h1>Upcycle</h1></div>
-                <div><h1>Recycling Properly</h1></div>
+                <div><h1>Upcycle</h1>
+                There are tons of tutorials online offering fun projects to convert plastic into beautiful projects&nbsp;
+                </div>
+                <div><h1>Recycling Properly</h1>
+                Many people don't know, but removing as much food from recyclable containers is important to make sure your item gets
+                recylced properly&nbsp;
+                </div>
               </div>
           </section>
           <section class="child">
