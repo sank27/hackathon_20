@@ -100,6 +100,9 @@ html {
 */
 .child:nth-child(1n) {
   background-color: darkorchid;
+
+  background-image: url('masksOnBeach.jpg');
+  background-size: 100% 100%;
 }
 
 .child:nth-child(2n) {
