@@ -116,8 +116,6 @@ function App_Educating_Resources() {
                   <SocialIcon network="twitter" url='https://twitter.com/?lang=en'/>
                   <SocialIcon network="facebook" url='https://facebook.com'/>
                   <SocialIcon network="email"/>
-                <div>Become An Active Learner</div>
-                <div>Start Your Own Cause</div>
               </div>
             </div>
           </section>
