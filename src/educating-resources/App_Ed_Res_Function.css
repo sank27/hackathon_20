@@ -99,27 +99,40 @@ html {
           - make it personalized somehow
 */
 .child:nth-child(1n) {
-  background-color: darkorchid;
+  background-color: #000;
+  background-image: url('masksOnBeach.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .child:nth-child(2n) {
   background-color: indigo;
+  background-image: url('pollution.jpg');
+  background-size: 100% 100%;
 }
 
 .child:nth-child(3n) {
   background-color: violet;
+  background-image: url('nature.jpg');
+  background-size: 100% 100%;
 }
 
 .child:nth-child(4n) {
   background-color: navy;
+  background-image: url('powerStation.jpg');
+  background-size: 100% 100%;
 }
 
 .child:nth-child(5n) {
   background-color: pink;
+  background-image: url('nature.jpg');
+  background-size: 100% 100%;
 }
 
 .child:nth-child(6n) {
   background-color: teal;
+  background-image: url('sustainable.jpg');
+  background-size: 100% 100%;
 }
 
 .child > h1 {
