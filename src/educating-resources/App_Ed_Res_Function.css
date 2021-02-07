@@ -43,13 +43,48 @@ p {
 
 /* Snap Scrolling */
 .container {
-  scroll-snap-type: x mandatory;
+  display: grid;
+  grid-auto-flow: column;
+  align-content: start;
 }
 
 .child {
-  scroll-snap-align: start;
+  scroll-snap-align: center;
+  display: inline-block;
+  height: 100vh;
+  width: 100vw;
 }
 
 html {
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
+}
+
+:root {
+  --gutter: 20px;
+}
+
+.App_Educating_Resources > * {
+  grid-column: 2 / -2;
+}
+
+.App_Educating_Resources > .child {
+  grid-column: 1 / -1;
+}
+
+.child {
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  grid-template-columns: 10px repeat(var(--total), calc(50% - var(--gutter) * 2)) 10px;
+  grid-template-rows: minmax(150px, 1fr);
+  
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  padding-bottom: calc(.75 * var(--gutter));
+  margin-bottom: calc(-.25 * var(--gutter));
+}
+
+.child:before,
+.child:after {
+  content: '';
 }
