@@ -22,9 +22,22 @@ function App_Educating_Resources() {
                   - reduce covid specific waster over beaches filled with masks (specific resource for this)
                   - reduce energy usage where climate change is causing devastating effects 
                   - reduce plastic waste where sea life or other animals are being affected 
-                  - .... 
+                  - Give tips on things to do with your amazon waste
+                    -DIY Ideas for projects to do with the bags/boxes
+                  -Signing petitions on the local/state level
+                  -Ask companies to provide transparent climate data 
+                  -Limiting home plastic use
+                    -Metal Water Bottle
+                    -Reuseable containers (Link below for crafts)
+                    -https://www.diyncrafts.com/27162/repurpose/30-amazing-upcycling-ideas-turn-grocery-bags-spectacular-creations
+                  -.... 
               - include external links 
                   - research reputable, useful external resources
+                  -https://www.noaa.gov/
+                  -https://www.nps.gov/index.htm
+                  -
+                  -
+                  -
 
             If Time: 
               - include educator's compiliation of resources
