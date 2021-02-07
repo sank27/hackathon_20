@@ -73,12 +73,13 @@ function App_Educating_Resources() {
               <div class="sources"> 
                 <div><h1>Traveling Using Eco-Friendly Ways</h1>
                 Cities offer low cost alternatives to traveling that don't involve owning a personal vehicle.&nbsp;
-                
+                <br/><br/>Links coming soon...
                 </div>
               
                 <div><h1>Making Diet Choices</h1>
                 This may sound scary, but it's definetly not as bad as it sounds.&nbsp;
                 <br/> Making a concious effort to eat less red meat and pick veggies or poultry can make big changes for the environment!
+                <br/><br/>Links coming soon...
                 </div>
               </div>
           </section>
@@ -87,10 +88,12 @@ function App_Educating_Resources() {
               <div class="sources"> 
                 <div><h1>Upcycle</h1>
                 There are tons of tutorials online offering fun projects to convert plastic into beautiful projects.&nbsp;
+                <br/><br/>More Links on this to Come...
                 </div>
                 <div><h1>Recycling Properly</h1>
                 Many people don't know, but removing as much food from recyclable containers is important to make sure your item gets
                 recylced properly&nbsp;
+                <br/><br/>More Links on this to Come...
                 </div>
               </div>
           </section>
@@ -99,23 +102,25 @@ function App_Educating_Resources() {
               <div class="sources"> 
                 <div><h1>Using Heating Or Cooling Only When Needed</h1>
                 Heating and cooling resources are big sources of energy consumption around the world.&nbsp;
+                <br/><br/>More Links on this to Come...
                 </div>
                 <div><h1>Turning Off Lights</h1>
-                Many of the places that supply the energy to light your home are inefficient coal burning power plants!&nbsp;</div>
+                Many of the places that supply the energy to light your home are inefficient coal burning power plants!&nbsp;
+                <br/><br/>More Links on this to Come...</div>
               </div>
           </section>
           <section class="child">
               <h1>Change in the Corporate World</h1>
               <div class="sources"> 
-                <div><h1>Learn About The Company; Buy Local</h1></div>
-                <div><h1>To Come: Ways to Encourage Large Scale Change as an Individual</h1></div>
+                <div><h1>Learn About The Company; Buy Local</h1>Coming Soon...</div>
+                <div><h1>To Come: Ways to Encourage Large Scale Change as an Individual</h1>Coming Soon...</div>
               </div>
           </section>
           <section class="child">
               <h1>Spread Awareness</h1>
               <div class="sources"> 
-                <div><h1>Become An Active Learner</h1></div>
-                <div><h1>Start Your Own Cause</h1></div>
+                <div><h1>Become An Active Learner</h1>Coming Soon...</div>
+                <div><h1>Start Your Own Cause</h1>Coming Soon...</div>
               </div>
           </section>
           <section class="child">
