@@ -99,8 +99,9 @@ html {
           - make it personalized somehow
 */
 .child:nth-child(1n) {
-  background-color: darkorchid;
-  background-image: url('nature.jpg');
+  background-color: #000;
+  background-image: url('masksOnBeach.jpg');
+  background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
