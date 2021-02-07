@@ -140,6 +140,28 @@ html {
   top: 0px;
 }
 
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:link {
+  color: blue;
+  font-weight: bold;
+}
+
+a:focus {
+  color: lightblue;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+a:visited {
+  color: purple;
+}
+
 .sources {
   display: flex; 
   flex-flow: row nowrap;
@@ -152,12 +174,15 @@ html {
   margin: 5%;
   padding: 10px;
   font-size: 65%;
-  text-align: center;
+  text-align: left;
   border: 5px solid #000;
   border-radius: 20px;
-  justify-content: center;
   height: 50vh;
   width: 50vw;
   background-color: #F0FFF0;
   color: #000;
+}
+
+.sources > h2 {
+  justify-content: center;
 }

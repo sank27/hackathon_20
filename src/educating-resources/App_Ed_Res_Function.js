@@ -73,15 +73,30 @@ function App_Educating_Resources() {
           <section class="child"> 
               <h1>COVID-19 Impacts</h1>
               <div class="sources"> 
-                <div>Personal Impacts</div>
-                <div>Global Impacts</div>
+                <div><h1>Individual Impacts</h1>
+                    The effects of improperly disposed masks can be seen&nbsp;
+                    <a href="https://oceansasia.org/beach-mask-coronavirus/">on beaches of Soko&apos;s Islands</a>. 
+                    <br/>From the mishandling of the insuragence of waste to increased single-use products, there has been more waste pollution due to Covid-19.
+                    <br/>Due to the pandemic, many companies have shifted to using&nbsp;
+                      <a href="https://www.nytimes.com/2020/04/24/us/california-plastic-bag-ban-coronavirus.html">more plastic&nbsp;</a> 
+                      as well as <a href="https://www.bbc.com/news/uk-51767092">single-use items</a> which has caused an influx of waste pollution.
+                      Individually, we all make an impact in the ways we choose to adjust to the pandemic and the ways we work to reduce our waste production.
+                      <br/>
+
+                </div>
+                <div><h2>Global Impacts</h2><br/>
+                    As companies have shifted their policies in the wake of the pandemic, there are calls to continue addressing&nbsp;
+                    <a href=''>the issue of waste production.</a> Innovation, ideas and new designs are needed in <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7324921/'>rethinking and optimizing plastic waste management.</a>
+                    <br/><br/>Additionally, YOU can <a href='https://www.change.org/t/plastic-waste-en-us'>urge change</a> in businesses and policy
+                    to aid in the <a href='https://www.change.org/m/protect-our-waters-say-no-to-plastic-waste'>mitigation of excessive waste.</a>
+                </div>
               </div>
           </section>
           <section class="child">
               <h1>Improve Carbon Footprint</h1>
               <div class="sources"> 
-                <div>Traveling Using Eco-Friendly Ways</div>
-                <div>Conserving At Home</div>
+                <div><h1>Traveling Using Eco-Friendly Ways</h1></div>
+                <div><h1>Conserving At Home</h1></div>
               </div>
           </section>
           <section class="child">
