@@ -2,6 +2,10 @@ import logo from './../logo.svg';
 import './../App.css';
 import './App_Ed_Res_Function.css'
 
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {SocialIcon} from 'react-social-icons'; 
+
 var root = document.documentElement;
 const lists = document.querySelectorAll('.hs'); 
 
@@ -82,22 +86,23 @@ function App_Educating_Resources() {
           <section class="child">
               <h1>Better Energy Usage</h1>
               <div class="sources"> 
-                <div></div>
-                <div>And here's some more</div>
+                <div><h1>To Come: Ways to Improve Individual Energy Consumption</h1></div>
+                <div><h1>To Come: Ways to Improve Infrastructure of Energy Consupmtion</h1></div>
               </div>
           </section>
           <section class="child">
               <h1>Change in the Corporate World</h1>
               <div class="sources"> 
-                <div>Buy Local</div>
-                <div></div>
+                <div><h1>To Come: Ways to Encourage Large Scale Change as an Individual</h1></div>
               </div>
           </section>
           <section class="child">
               <h1>Spread Awareness</h1>
               <div class="sources"> 
-                <div>And here's some text</div>
-                <div>And here's some more</div>
+                <div>
+                  <SocialIcon network="twitter" url='https://twitter.com/?lang=en'/>
+                  <SocialIcon network="facebook" url='https://facebook.com'/>
+                </div>
               </div>
           </section>
         </main>
