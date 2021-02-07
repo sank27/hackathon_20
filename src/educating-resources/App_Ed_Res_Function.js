@@ -72,7 +72,7 @@ function App_Educating_Resources() {
               <h1>Improve Carbon Footprint</h1>
               <div class="sources"> 
                 <div><h1>Traveling Using Eco-Friendly Ways</h1>
-                Cities offer low cost alternatives to traveling that don't envolve owning a personal vehicle.&nbsp;
+                Cities offer low cost alternatives to traveling that don't involve owning a personal vehicle.&nbsp;
                 
                 </div>
               
@@ -86,7 +86,7 @@ function App_Educating_Resources() {
               <h1>Mitigate Plastic Waste</h1>
               <div class="sources"> 
                 <div><h1>Upcycle</h1>
-                There are tons of tutorials online offering fun projects to convert plastic into beautiful projects&nbsp;
+                There are tons of tutorials online offering fun projects to convert plastic into beautiful projects.&nbsp;
                 </div>
                 <div><h1>Recycling Properly</h1>
                 Many people don't know, but removing as much food from recyclable containers is important to make sure your item gets
@@ -97,8 +97,11 @@ function App_Educating_Resources() {
           <section class="child">
               <h1>Better Energy Usage</h1>
               <div class="sources"> 
-                <div><h1>Using Heating Or Cooling Only When Needed</h1></div>
-                <div><h1>Turning Off Lights</h1></div>
+                <div><h1>Using Heating Or Cooling Only When Needed</h1>
+                Heating and cooling resources are big sources of energy consumption around the world.&nbsp;
+                </div>
+                <div><h1>Turning Off Lights</h1>
+                Many of the places that supply the energy to light your home are inefficient coal burning power plants!&nbsp;</div>
               </div>
           </section>
           <section class="child">
