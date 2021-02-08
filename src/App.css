@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
+  background-color: antiquewhite;
 }
 .form {
   display: flex;
@@ -14,14 +15,24 @@
 }
 
 #flex {
-  margin-right: 20px;
+  margin-right: 50px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   background-color: rgb(223, 186, 139);
   padding: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
+}
+#flex button {
+  margin: 5px;
+  width: 80px;
 }
 
-#flex input label {
-  max-width: 200px;
+#flex label, input {
+  max-width: 400px;
+  margin: 5px;
+}
+#flex input {
+  max-width: 300px;
+  margin: 5px;
 }
