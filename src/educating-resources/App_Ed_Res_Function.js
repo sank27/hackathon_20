@@ -1,4 +1,3 @@
-import logo from './../logo.svg';
 import './../App.css';
 import './App_Ed_Res_Function.css'
 
@@ -13,6 +12,7 @@ lists.forEach(el => {
 
 function App_Educating_Resources() {
   return (
+    <div className="container">
     <div className="App_Educating_Resources">
       <header className="App-header">
         {/* TODO: Change logo and Header
@@ -55,38 +55,38 @@ function App_Educating_Resources() {
         */} 
 
         {/* https://css-tricks.com/practical-css-scroll-snapping/ */}
-        <main class="container">
-          <section class="child"> 
+        <main className="container">
+          <section className="child"> 
               <h1>Title</h1>
-              <div class="sources"> 
+              <div className="sources"> 
                 <div>And here's some text</div>
                 <div>And here's some more</div>
               </div>
           </section>
-          <section class="child">
+          <section className="child">
               <h1>Second Section</h1>
-              <div class="sources"> 
+              <div className="sources"> 
                 <div>And here's some text</div>
                 <div>And here's some more</div>
               </div>
           </section>
-          <section class="child">
+          <section className="child">
               <h1>Third Section</h1>
-              <div class="sources"> 
+              <div className="sources"> 
                 <div>And here's some text</div>
                 <div>And here's some more</div>
               </div>
           </section>
-          <section class="child">
+          <section className="child">
               <h1>Fourth Section</h1>
-              <div class="sources"> 
+              <div className="sources"> 
                 <div>And here's some text</div>
                 <div>And here's some more</div>
               </div>
           </section>
-          <section class="child">
+          <section className="child">
               <h1>Fifth Section</h1>
-              <div class="sources"> 
+              <div className="sources"> 
                 <div>And here's some text</div>
                 <div>And here's some more</div>
               </div>
@@ -95,6 +95,7 @@ function App_Educating_Resources() {
 
 
       </header>
+    </div>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { PieChart } from 'react-minimal-pie-chart'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App-container">
 
       <form action="">
         <div id='flex'>
