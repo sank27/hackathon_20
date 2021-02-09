@@ -3,15 +3,12 @@
   /*overflow-y: scroll;*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+    /* scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain; */
+    display: flex; 
+    flex-direction: row;
+    /* height: auto; */
 }
 
 .App-header {
@@ -25,33 +22,14 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-p {
-  background-color: #61dafb;
-}
-
 /* Snap Scrolling */
 *.container {
   display: grid;
   grid-auto-flow: column;
   align-content: start;
-  /*place-items: left;*/
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   width: 100vw;
-  /*height: 1000vh;*/
 
 }
 
@@ -70,13 +48,6 @@ p {
   border-left-color: #fff;
   border-right-color: #fff;
   padding-bottom: 15px;
-}
-
-html {
-  scroll-snap-type: x mandatory;
-  overscroll-behavior-x: contain;
-  display: flex; 
-  flex-direction: row;
 }
 
 
@@ -98,46 +69,54 @@ html {
         - add sharability on social media 
           - make it personalized somehow
 */
+
+.child {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .child:nth-child(1n) {
+  color: #F0FFF0;
   background-color: darkorchid;
 
   background-image: url('masksOnBeach.jpg');
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
 }
 
 .child:nth-child(2n) {
   background-color: indigo;
 
   background-image: url('huge-tree.jpg');
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
 
 }
 
 .child:nth-child(3n) {
   background-color: violet;
   background-image: url('water-pollution.jpg');
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
 
 }
 
 .child:nth-child(4n) {
   background-color: navy;
   background-image: url('nature.jpg');
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
 
 }
 
 .child:nth-child(5n) {
   background-color: pink;
   background-image: url('pollution.jpg');
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
 
 }
 
 .child:nth-child(6n) {
   background-color: teal;
   background-image: url('sustainable.jpg');
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
 }
 
 .child > h1 {

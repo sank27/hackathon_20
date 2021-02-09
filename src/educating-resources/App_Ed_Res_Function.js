@@ -1,4 +1,3 @@
-import logo from './../logo.svg';
 import './../App.css';
 import './App_Ed_Res_Function.css';
 import React from 'react';
@@ -16,10 +15,11 @@ lists.forEach(el => {
 
 function App_Educating_Resources() {
   return (
-    <div className="App_Educating_Resources">
-      <header className="App-header">
+    <div classNameName="container">
+    <div classNameName="App_Educating_Resources">
+      <header classNameName="App-header">
         {/* TODO: Change logo and Header
-        // <img src={logo} className="App-logo" alt="logo" /> */}
+        // <img src={logo} classNameName="App-logo" alt="logo" /> */}
       
         {/* TODO
             Scrolling Background 
@@ -58,10 +58,10 @@ function App_Educating_Resources() {
         */} 
 
         {/* https://css-tricks.com/practical-css-scroll-snapping/ */}
-        <main class="container">
-          <section class="child"> 
+        <main className="container">
+          <section className="child"> 
               <h1>COVID-19 Impacts</h1>
-              <div class="sources"> 
+              <div className="sources"> 
                 <div><h1>Individual Impacts</h1>
                     The effects of improperly disposed masks can be seen&nbsp;
                     <a href="https://oceansasia.org/beach-mask-coronavirus/">on beaches of Soko&apos;s Islands</a>. 
@@ -81,9 +81,9 @@ function App_Educating_Resources() {
                 </div>
               </div>
           </section>
-          <section class="child">
+          <section className="child">
               <h1>Improve Carbon Footprint</h1>
-              <div class="sources"> 
+              <div className="sources"> 
                 <div><h1>Traveling Using Eco-Friendly Ways</h1>
                 Cities offer low cost alternatives to traveling that don't involve owning a personal vehicle.&nbsp;
                 <br/><br/>Links coming soon...
@@ -96,9 +96,9 @@ function App_Educating_Resources() {
                 </div>
               </div>
           </section>
-          <section class="child">
+          <section className="child">
               <h1>Mitigate Plastic Waste</h1>
-              <div class="sources"> 
+              <div className="sources"> 
                 <div><h1>Upcycle</h1>
                 There are tons of tutorials online offering fun projects to convert plastic into beautiful projects.&nbsp;
                 <br/><br/>More Links on this to Come...
@@ -110,9 +110,9 @@ function App_Educating_Resources() {
                 </div>
               </div>
           </section>
-          <section class="child">
+          <section className="child">
               <h1>Better Energy Usage</h1>
-              <div class="sources"> 
+              <div className="sources"> 
                 <div><h1>Using Heating Or Cooling Only When Needed</h1>
                 Heating and cooling resources are big sources of energy consumption around the world.&nbsp;
                 <br/><br/>More Links on this to Come...
@@ -122,24 +122,24 @@ function App_Educating_Resources() {
                 <br/><br/>More Links on this to Come...</div>
               </div>
           </section>
-          <section class="child">
+          <section className="child">
               <h1>Change in the Corporate World</h1>
-              <div class="sources"> 
+              <div className="sources"> 
                 <div><h1>Learn About The Company; Buy Local</h1>Coming Soon...</div>
                 <div><h1>To Come: Ways to Encourage Large Scale Change as an Individual</h1>Coming Soon...</div>
               </div>
           </section>
-          <section class="child">
+          <section className="child">
               <h1>Spread Awareness</h1>
-              <div class="sources"> 
+              <div className="sources"> 
                 <div><h1>Become An Active Learner</h1>Coming Soon...</div>
                 <div><h1>Start Your Own Cause</h1>Coming Soon...</div>
               </div>
           </section>
-          <section class="child">
+          <section className="child">
             <h1>Share</h1>
-            <div class='sources'>
-              <div  class="social_media_links">
+            <div className='sources'>
+              <div  className="social_media_links">
                   <SocialIcon network="twitter" url='https://twitter.com/?lang=en'/>
                   <SocialIcon network="facebook" url='https://facebook.com'/>
                   <SocialIcon network="email"/>
@@ -150,6 +150,7 @@ function App_Educating_Resources() {
 
 
       </header>
+    </div>
     </div>
   );
 }
