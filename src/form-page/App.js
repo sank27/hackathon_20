@@ -30,7 +30,7 @@ function App() {
       </form>
 
       <div className="pie-chart">
-      <PieChart paddingAngle= {1} style= {{height: '450px', width: '450px'}} 
+      <PieChart paddingAngle= {1} style= {{height: '450px', width: '350px'}} 
       data = {[
              { title: 'One', value: 15, color: '#E38627'},
              { title: 'Two', value: 25, color: '#C13C37' },
