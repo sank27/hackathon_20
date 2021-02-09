@@ -4,8 +4,8 @@
 }
 
 .container {
-    scroll-snap-type: x mandatory;
-    overscroll-behavior-x: contain;
+    /* scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain; */
     display: flex; 
     flex-direction: row;
     /* height: auto; */
@@ -69,24 +69,81 @@
         - add sharability on social media 
           - make it personalized somehow
 */
+
+.child {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .child:nth-child(1n) {
+  color: #F0FFF0;
   background-color: darkorchid;
+
+  background-image: url('masksOnBeach.jpg');
+  /* background-size: 100% 100%; */
 }
 
 .child:nth-child(2n) {
   background-color: indigo;
+
+  background-image: url('huge-tree.jpg');
+  /* background-size: 100% 100%; */
+
 }
 
 .child:nth-child(3n) {
-  background-color: navy;
+  background-color: violet;
+  background-image: url('water-pollution.jpg');
+  /* background-size: 100% 100%; */
+
 }
 
 .child:nth-child(4n) {
-  background-color: indigo;
+  background-color: navy;
+  background-image: url('nature.jpg');
+  /* background-size: 100% 100%; */
+
 }
 
 .child:nth-child(5n) {
-  background-color: navy;
+  background-color: pink;
+  background-image: url('pollution.jpg');
+  /* background-size: 100% 100%; */
+
+}
+
+.child:nth-child(6n) {
+  background-color: teal;
+  background-image: url('sustainable.jpg');
+  /* background-size: 100% 100%; */
+}
+
+.child > h1 {
+  position: relative;
+  top: 0px;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:link {
+  color: blue;
+  font-weight: bold;
+}
+
+a:focus {
+  color: lightblue;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+a:visited {
+  color: purple;
 }
 
 .sources {
@@ -98,5 +155,32 @@
 .sources > * {
   border-color: #000;
   border: 2px;
-  margin: 10px;
+  margin: 5%;
+  padding: 10px;
+  font-size: 65%;
+  text-align: left;
+  border: 5px solid #000;
+  border-radius: 20px;
+  height: 50vh;
+  width: 50vw;
+  background-color: #F0FFF0;
+  color: #000;
+}
+
+.sources > h2 {
+  justify-content: center;
+}
+
+.social_media_links {
+  height: auto;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.social_media_links > SocialIcon {
+  align-self: center;
 }
