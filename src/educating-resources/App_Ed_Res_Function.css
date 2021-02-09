@@ -3,15 +3,12 @@
   /*overflow-y: scroll;*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    display: flex; 
+    flex-direction: row;
+    /* height: auto; */
 }
 
 .App-header {
@@ -25,33 +22,14 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-p {
-  background-color: #61dafb;
-}
-
 /* Snap Scrolling */
 *.container {
   display: grid;
   grid-auto-flow: column;
   align-content: start;
-  /*place-items: left;*/
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   width: 100vw;
-  /*height: 1000vh;*/
 
 }
 
@@ -72,18 +50,25 @@ p {
   padding-bottom: 15px;
 }
 
-html {
-  scroll-snap-type: x mandatory;
-  overscroll-behavior-x: contain;
-  display: flex; 
-  flex-direction: row;
-}
-
 
 /* https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585 */
 /* https://blog.logrocket.com/how-to-use-css-scroll-snap/*/
 
-/* TODO: Set background images */
+/* TODO: 
+      - Set background images 
+      - Add borders around the text items 
+      - Format titles to be more toward top 
+      - set background colors for text items 
+      - text items -> flex container? grid? 
+
+      - test and adjust multiple sizes of screens and mobile settings 
+
+      - ADD ACTUAL CONTENT
+      - If time: 
+        - add discussion sections below each section 
+        - add sharability on social media 
+          - make it personalized somehow
+*/
 .child:nth-child(1n) {
   background-color: darkorchid;
 }
@@ -102,4 +87,16 @@ html {
 
 .child:nth-child(5n) {
   background-color: navy;
+}
+
+.sources {
+  display: flex; 
+  flex-flow: row nowrap;
+  justify-content: space-around;  
+}
+
+.sources > * {
+  border-color: #000;
+  border: 2px;
+  margin: 10px;
 }

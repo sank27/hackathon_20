@@ -1,17 +1,15 @@
 import 'aframe';
 import {Entity, Scene} from 'aframe-react';
 import React from 'react';
-import vr from './image_gallery/1.jpg';
+import './vr.css'
+import vr from './1.jpg';
 
 export default (props) => {
   return (
-    <Scene>
-      <a-assets>
-        <img id="city" crossorigin="anonymous" src={vr} />
+    <div className="container-vr">
+    <Scene embedded>
+        <img id="city" crossOrigin="anonymous" src={vr} />
         
-        
-
-      </a-assets>
 
       {/* <!-- 360-degree image. --> */}
       <a-sky id="image-360" radius="10" src="#city"
@@ -20,9 +18,9 @@ export default (props) => {
 
       {/* <!-- Image links. --> */}
       <Entity id="links" layout="type: line; margin: 1.5" position="0 -1 -4">
-        <Entity template="src: #link" data-src="#city" data-thumb="#cubes-thumb"></Entity>
+        {/* <Entity template="src: #link" data-src="#city" data-thumb="#cubes-thumb"></Entity>
         <Entity template="src: #link" data-src="#city" data-thumb="#city-thumb"></Entity>
-        <Entity template="src: #link" data-src="#city" data-thumb="#sechelt-thumb"></Entity>        
+        <Entity template="src: #link" data-src="#city" data-thumb="#sechelt-thumb"></Entity>         */}
       </Entity> 
         
       
@@ -40,7 +38,7 @@ export default (props) => {
 
     </Scene>
 
-
+    </div>
 
 
   );

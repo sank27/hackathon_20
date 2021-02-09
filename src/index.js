@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import App_Ed_Res from './educating-resources/App_Ed_Res_Function'
-import ImageGallery from './image_gallery/vr'
+import VR from './vr'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
     <App_Ed_Res /> 
-    {/* <ImageGallery /> */}
+    <App />
+    <VR/>
   </React.StrictMode>,
   document.getElementById('root')
 );
