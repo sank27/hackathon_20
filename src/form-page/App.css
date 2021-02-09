@@ -1,24 +1,25 @@
 .App-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
   background-color: antiquewhite;
 }
-.form {
-  display: flex;
-  background-color: beige;
-  padding: 10px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+
+.pie-chart {
+  margin: 20px;
 }
 
 #flex {
-  margin-right: 50px;
   border-radius: 5px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   background-color: rgb(223, 186, 139);
   padding: 10px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
@@ -26,6 +27,19 @@
 #flex button {
   margin: 5px;
   width: 80px;
+  cursor: pointer;
+  border: 1px solid rgb(22, 17, 17);
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#flex button:hover {
+  background-color: antiquewhite;
+}
+
+#flex button:active {
+  transform: scale(0.98);
 }
 
 #flex label, input {

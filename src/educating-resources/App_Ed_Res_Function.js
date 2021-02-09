@@ -1,7 +1,6 @@
-import './../App.css';
+import './../form-page/App.css';
 import './App_Ed_Res_Function.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
 
 var root = document.documentElement;
@@ -15,9 +14,8 @@ lists.forEach(el => {
 
 function App_Educating_Resources() {
   return (
-    <div classNameName="container">
-    <div classNameName="App_Educating_Resources">
-      <header classNameName="App-header">
+    <div className="App_Educating_Resources">
+      <header className="App-header">
         {/* TODO: Change logo and Header
         // <img src={logo} classNameName="App-logo" alt="logo" /> */}
       
@@ -150,7 +148,6 @@ function App_Educating_Resources() {
 
 
       </header>
-    </div>
     </div>
   );
 }
